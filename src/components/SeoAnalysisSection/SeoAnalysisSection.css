@@ -1,0 +1,124 @@
+/* Background and layout */
+.seo-section-container {
+    background-color: #ffe2d5;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .seo-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  /* Left side text */
+  .seo-text {
+    flex: 1 1 500px;
+  }
+  
+  .seo-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .seo-text p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .button-wrapper {
+    text-align: left;
+  }
+  
+  .services-btn {
+    margin-top: 20px;
+    background-color: #f04e23;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: inline-block;
+  }
+  
+  .services-btn:hover {
+    background-color: #d43f1b;
+  }
+  
+  /* Right side form with animation */
+  .seo-form {
+    flex: 1 1 400px;
+    padding: 30px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.8s ease-out;
+  }
+  
+  .seo-form.slide-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .seo-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .seo-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .seo-form button {
+    background-color: #f04e23;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .seo-form button:hover {
+    background-color: #d43f1b;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .seo-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      padding: 0 10px;
+    }
+  
+    /* .seo-text,
+    .seo-form {
+      width: 100%;
+      max-width: 600px;
+    } */
+  
+    .seo-text,
+    .button-wrapper {
+      text-align: left;
+    }
+  
+    .seo-form {
+      opacity: 1;
+      transform: translateY(20px);
+    }
+  }
+  

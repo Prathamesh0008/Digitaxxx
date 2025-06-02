@@ -1,0 +1,90 @@
+.scroll-section-container {
+    padding: 50px 20px;
+    display: flex;
+      }
+  
+  body {
+    font-family: Rubik;
+  }
+  
+  .scroll-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    gap: 50px;
+    margin: 0 auto;
+  }
+  
+  .text-container {
+    max-width: 600px;
+    padding-right: 20px;
+    text-align: left; /* Ensures all content inside is left aligned */
+  }
+  
+  .text-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #57606e;
+    margin-bottom: 20px;
+  }
+  
+  .text-container p {
+    font-size: 1rem;
+    color: #43464b;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-btn {
+    background-color: #f04e23;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #d43f1b;
+  }
+  
+  .image-container {
+    width: 50%;
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 0.8s ease-out;
+  }
+  
+  .image-container.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .scroll-section {
+      flex-direction: column;
+      /* Remove text-align: center to keep everything left aligned */
+    }
+  
+    .text-container {
+      padding-right: 0;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+  
+    .image-container {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

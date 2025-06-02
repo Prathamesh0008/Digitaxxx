@@ -1,0 +1,56 @@
+.website-score-section {
+  background-color: #ffe5db;
+  padding: 60px 20px;
+  text-align: center;
+  /* background-image: url('/path/to/background-pattern.png'); Optional: if you want the pattern */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.score-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.score-description {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.score-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.score-input {
+  padding: 12px 16px;
+  font-size: 16px;
+  width: 260px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.score-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ff4d30;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.score-button:hover {
+  background-color: #e0432a;
+}

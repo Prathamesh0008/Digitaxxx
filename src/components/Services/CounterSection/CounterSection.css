@@ -1,0 +1,31 @@
+.counter-section {
+  background-color: #ffe3de;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.counter-box {
+  flex: 1 1 200px;
+  margin: 20px;
+}
+
+.counter-icon {
+  font-size: 50px;
+  color: #ff4d4d;
+  margin-bottom: 15px;
+}
+
+.counter-number {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.counter-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #444;
+}

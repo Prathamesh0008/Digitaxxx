@@ -1,0 +1,68 @@
+.casee-studies {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: #fce7e7;
+}
+.casee-studiess {
+max-width: 1100px;
+margin: 0 auto;
+background: #fce7e7;
+}
+
+.case-studies-header h2 {
+  font-size: 2rem;
+  color: #57606e;
+  margin-bottom: 0.5rem;
+}
+
+.case-studies-header p {
+  color: #57606e;
+  margin-bottom: 2rem;
+}
+
+.case-studies-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.case-card {
+  background: transparent;
+  border-radius: 10px;
+  color: #57606e;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  position: relative;
+}
+
+.case-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: #d43f1b;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+}
+
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate arrow to point down when expanded */
+.arrow-icon.rotate-down {
+  transform: rotate(90deg);
+}
+
