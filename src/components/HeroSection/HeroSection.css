@@ -1,9 +1,11 @@
 .hero-container {
-    background-color: #ffe2d5;
+    /* background-color: #ffe2d5; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 100px 100px;
+    background: url(../../images/home1_bg.png);
+    background-size: cover;
     gap: 40px;
   }
   
@@ -15,13 +17,13 @@
   .hero-left h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #1e1e1e;
+    color: #57606e;
   }
   
   .hero-left p {
     font-size: 1.1rem;
     font-weight: 500;
-    color: #333;
+    color: #57606e;
     margin-bottom: 30px;
   }
   
@@ -79,6 +81,9 @@
     }
     .hero-left {
       padding-top: 50px;
+    }
+    .hero-right img{
+      display: none;
     }
   }
   

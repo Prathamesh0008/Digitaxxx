@@ -22,16 +22,19 @@
   }
   
   .text-container h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: #57606e;
     margin-bottom: 20px;
+    line-height: 1.6; 
+    font-weight: 500;
   }
   
   .text-container p {
     font-size: 1rem;
     color: #43464b;
     margin-bottom: 20px;
+    line-height: 1.6; 
   }
   
   .learn-more-btn {

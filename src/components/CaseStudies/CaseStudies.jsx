@@ -41,7 +41,7 @@ const CaseStudies = () => {
       <div className="case-studies-header">
         <h2>Our Case Studies</h2>
         <p>
-          Don’t settle: Don’t finish crappy books. If you don’t like the menu,
+          Don’t settle: Don’t finish crappy books. If you don’t like the menu,<br/>
           leave the restaurant. If you’re not on the right path, get off it.
         </p>
       </div>

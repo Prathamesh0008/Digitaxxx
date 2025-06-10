@@ -15,14 +15,14 @@
 
   
   .exclusive-header h2 {
-    font-size: 2.2rem;
-    color: #333;
+    font-size: 2.5rem;
+    color: #43464b;
     margin-bottom: 10px;
   }
   
   .exclusive-header p {
     font-size: 1rem;
-    color: #555;
+    color: #43464b;
     max-width: 800px;
     margin: 0 auto 40px;
   }
@@ -86,12 +86,12 @@
   .service-box h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #222;
+    color: #43464b;
   }
   
   .service-box p {
     font-size: 0.95rem;
-    color: #444;
+    color: #43464b;
     padding: 0 5px;
   }
   

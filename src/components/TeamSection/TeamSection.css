@@ -7,15 +7,18 @@
   .team-header h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #57606e;
+    font-weight: 500;
   }
   
   .team-header p {
     max-width: 700px;
     margin: 0 auto 40px;
     font-size: 1rem;
-    color: #666;
+    color: #57606e;
     padding: 0 10px;
+    line-height: 1.6; 
+    
   }
   
   .carousel-wrapper {

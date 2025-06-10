@@ -10,6 +10,18 @@
   display: flex;
   gap: 40px;
 }
+.pricing-content h2{
+  font-size: 2.5rem;
+    color: #43464b;
+    line-height: 1.3; 
+    text-align: left;
+    font-weight: 500;
+}
+.pricing-content p {
+  line-height: 1.6;
+  /* color: red;  */
+  text-align: left;
+}
 
 /* Pricing Cards */
 .pricing-cards {

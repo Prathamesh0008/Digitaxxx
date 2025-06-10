@@ -34,11 +34,11 @@ const ContactUs = () => {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Subject*</label>
+              <label>Website</label>
               <input type="text" placeholder="Enter your subject" />
             </div>
             <div className="form-group">
-              <label>Telephone*</label>
+              <label>Contact No*</label>
               <input type="tel" placeholder="Enter your phone number" />
             </div>
           </div>

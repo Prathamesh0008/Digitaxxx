@@ -7,7 +7,10 @@ const PortfolioBlock = ({ title, description, image, reverse }) => {
       <div className="portfolio-image">
         <img src={image} alt={title} />
       </div>
-      <div className="portfolio-content">
+      <div
+        className="portfolio-content"
+        style={{ textAlign: reverse ? "right" : "left" }} 
+      >
         <h2>{title}</h2>
         <p>{description}</p>
       </div>

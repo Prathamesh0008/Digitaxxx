@@ -58,7 +58,7 @@ const ExclusiveServices = () => {
 
   return (
     <div>
-    <section className="exclusive-container" ref={sectionRef}>
+    <section className="exclusive-containerr" ref={sectionRef}>
       <div className="exclusive-header">
         <h2>Our Exclusive Services</h2>
         <p>

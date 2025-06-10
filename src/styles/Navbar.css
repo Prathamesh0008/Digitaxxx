@@ -4,8 +4,8 @@
   top: 20px;
   left: 0;
   width: 100%;
-  background-color: #ffe2d5;
-  /* background: var(--hero-bg-color, transparent); */
+  background-color: #fbe0d7;
+  background: var(--hero-bg-color, transparent);
   box-shadow: none;
   transition: background-color 0.3s ease, box-shadow 0.3s ease, top 0.3s ease;
   z-index: 999;

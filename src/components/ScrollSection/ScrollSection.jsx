@@ -11,7 +11,7 @@ const ScrollSection = () => {
     const rect = image.getBoundingClientRect();
     if (rect.top <= window.innerHeight && rect.bottom >= 0) {
       setIsVisible(true);
-    }
+    } 
   };
 
   useEffect(() => {

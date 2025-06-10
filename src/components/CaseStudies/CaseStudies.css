@@ -8,13 +8,17 @@
 }
 
 .case-studies-header h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: #43464b;
   margin-bottom: 0.5rem;
+  line-height: 1.3; 
 }
 
 .case-studies-header p {
   color: #555;
+  font-size: 1.1rem;
   margin-bottom: 2rem;
+  line-height: 1.6; 
 }
 
 .case-studies-grid {
@@ -30,6 +34,12 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   text-align: left;
   position: relative;
+}
+.case-card h3{
+  font-size: 1.3rem;
+}
+.case-card p {
+  line-height: 1.6; 
 }
 
 .case-img {
