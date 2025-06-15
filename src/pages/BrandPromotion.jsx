@@ -42,9 +42,10 @@ const BrandPromotion = () => {
         image={clientImage3}
         reverse={false}
       />
+      <Blogsection/>
       <CounterSection/>
       <PricingSection/>
-      <Blogsection/>
+      
     </div>
   );
 };

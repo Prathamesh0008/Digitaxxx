@@ -44,17 +44,21 @@
   }
   
   .hero-right {
-    max-width: 50%;
-  }
-  
-  .hero-image {
-    margin-top: 40px;
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    animation: slideInRight 2s ease-out forwards;
-    opacity: 0;
-  }
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1200px; /* You can increase this */
+  height: auto;
+  margin-top: 40px;
+  animation: slideInRight 2s ease-out forwards;
+  opacity: 0;
+}
+
   
   /* Animation keyframes */
   @keyframes slideInRight {

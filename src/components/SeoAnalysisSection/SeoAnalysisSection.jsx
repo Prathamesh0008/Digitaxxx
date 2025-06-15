@@ -1,9 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./SeoAnalysisSection.css";
+import { useNavigate } from "react-router-dom";
 
 const SeoAnalysisSection = () => {
   const formRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -38,7 +40,7 @@ const SeoAnalysisSection = () => {
             money and capitalism and winning and promoting it and having
             something someone.
           </p>
-          <button className="services-btn">OUR SERVICES</button>
+          <button className="services-btn" onClick={()=> navigate("/services")}>OUR SERVICES</button>
         </div>
 
         {/* Right Side Form */}

@@ -7,6 +7,7 @@ import ExclusiveService from "../components/Services/ExclusiveService/ExclusiveS
 import Breadcrumb from "../components/Breadcrumb/Breadcrumb";
 import CounterSection from "../components/Services/CounterSection/CounterSection";
 import TestimonialSlider from "../components/TestimonialSlider/TestimonialSlider";
+import ServiceShowcase from "../components/Services/ServiceShowcase/ServiceShowcase";
 
 
 const Services = () => {
@@ -19,7 +20,8 @@ const Services = () => {
       {/* <Blogsection/> */}
       {/* <HeroSection/> */}
       <SrvHEro/>
-      <ExclusiveService/>
+      <ServiceShowcase/>
+      {/* <ExclusiveService/> */}
       <CounterSection/>
       <TestimonialSlider/>
       {/* <ExclusiveServices/> */}

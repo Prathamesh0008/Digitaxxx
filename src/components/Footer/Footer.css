@@ -227,3 +227,34 @@
     border-radius: 4px;
   }
 }
+.footer-locations {
+  background-color: #202029;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  /* border-top: 1px solid #333; */
+  /* border-bottom: 1px solid #333; */
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  gap: 8px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.location-item:hover {
+  color: #25d366;
+  cursor: pointer;
+}
+
+.location-icon {
+  color: red;
+  font-size: 18px;
+}
+

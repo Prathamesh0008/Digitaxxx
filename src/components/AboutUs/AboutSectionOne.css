@@ -37,7 +37,8 @@
     background: #fdfdfd;
     padding: 25px;
     border-radius: 16px;
-    height: 260px;
+    height: 400px;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,15 +67,15 @@
     margin-right: 40px;
     margin-bottom: 20px;
     width: 120px;
-    height: 350px;
+    height: 320px;
     object-fit: contain;
     opacity: 1;
-    z-index: 0; /* Put this behind the main image */
+    z-index: 0; 
   }
   
   .main-image {
-    width: 60px;
-    height: 60px;
+      width: 100%;
+      height: 220px;
     object-fit: contain;
     z-index: 1;
     position: relative;

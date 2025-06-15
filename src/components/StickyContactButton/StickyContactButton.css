@@ -1,0 +1,25 @@
+.sticky-contact-button button{
+  position: fixed;
+  top: 40%;
+  right: 0;
+  transform: translateY(-50%) rotate(-90deg);
+  border: none;
+  transform-origin: right center;
+  background-color: #ff6b00;
+  color: white;
+  padding: 12px 30px;
+  padding-bottom: 50px;
+  border-radius: 8px 8px 0 0;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.sticky-contact-button button {
+  color: white;
+  text-decoration: none;
+  display: block;
+}

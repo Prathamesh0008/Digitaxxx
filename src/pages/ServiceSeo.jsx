@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutBlock from '../components/AboutUs/AboutBlock';
-import clientImage from '../images/img1-4.png';
-import clientImage2 from '../images/img2-4.png';
+import clientImage from '../images/seo-1.jpg';
+import clientImage2 from '../images/seo-2.jpg';
 import clientImage3 from '../images/img3-1.png';
 import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
 import "./ServiceSeo.css"
@@ -57,9 +57,10 @@ const ServiceSeo = () => {
         image={clientImage3}
         reverse={true}
       />
+      <Blogsection/>
       <CounterSection/>
       <PricingSection/>
-      <Blogsection/>
+      
     </div>
   );
 };

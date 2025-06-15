@@ -3,6 +3,8 @@ import './Footer.css';
 import logo1 from '../../images/logo-white.svg';
 import { FiSend, } from 'react-icons/fi';
 import { FaRegCopyright  } from 'react-icons/fa6';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+
 
 const Footer = () => {
   return (
@@ -102,6 +104,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="footer-locations">
+  <div className="location-item"><FaMapMarkerAlt className="location-icon" /> Mumbai</div>
+  <div className="location-item"><FaMapMarkerAlt className="location-icon" /> Navi Mumbai</div>
+  <div className="location-item"><FaMapMarkerAlt className="location-icon" /> Delhi</div>
+  <div className="location-item"><FaMapMarkerAlt className="location-icon" /> Bangalore</div>
+  <div className="location-item"><FaMapMarkerAlt className="location-icon" /> Hyderabad</div>
+</div>
+
 
       {/* Copyright - now outside the main footer with different background */}
       <div className="copyright-container">

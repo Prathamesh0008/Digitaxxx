@@ -35,8 +35,9 @@
 }
 
 .navbar-logo img {
-  height: 40px;
+  height: 85px;
   width: auto;
+  object-fit: contain;
 }
 
 .nav-menu {
@@ -175,7 +176,7 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 64px;
+    top: 55px;
     left: 0;
     background: white;
     width: 100%;
@@ -202,3 +203,21 @@
     padding-left: 10px;
   }
 }
+.nav-button {
+  margin-left: 20px;
+}
+
+.btn-primary {
+  padding: 8px 16px;
+  background-color: #ff6b00;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e85d00;
+}
+

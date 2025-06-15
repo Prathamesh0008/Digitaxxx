@@ -29,7 +29,7 @@ const About = () => {
   image={rocketImg}
   reverse={true}
 />
-<AboutSectionOne/>
+{/* <AboutSectionOne/> */}
 <AboutTeam/>
     </div>
   );

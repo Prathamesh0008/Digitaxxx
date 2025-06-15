@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import "./ScrollSection.css"; // Importing the CSS file
-import image1 from "../../images/home1_img_fix.png"
+import image1 from "../../images/banner-1.jpg"
+import { useModal } from "../ModalContext";
 
 const ScrollSection = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const {openModal}= useModal();
 
   // Function to detect when the section is in the viewport
   const handleScroll = () => {
@@ -41,7 +43,7 @@ const ScrollSection = () => {
             money and capitalism and winning and promoting it and having
             something someone.
           </p>
-          <button className="learn-more-btn">Learn more</button>
+          <button className="learn-more-btn" onClick={openModal}>Learn more</button>
         </div>
        
       </section>

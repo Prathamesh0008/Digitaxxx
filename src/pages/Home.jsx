@@ -10,15 +10,18 @@ import TestimonialSlider from "../components/TestimonialSlider/TestimonialSlider
 import CaseStudies from "../components/CaseStudies/CaseStudies";
 import PricingSection from "../components/PricingSection/PricingSection";
 import Blogsection from "../components/Blogsection/Blogsection";
+import BookNowModal from "../components/BookNowModal/BookNowModal";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
+      {/* <BookNowModal/> */}
       <SubscribeSection />
       <ScrollSection />
       <SeoAnalysisSection />
       <ExclusiveServices />
+      <BookNowModal/>
       <HowWeWork />
       <TeamSection />
       <TestimonialSlider />

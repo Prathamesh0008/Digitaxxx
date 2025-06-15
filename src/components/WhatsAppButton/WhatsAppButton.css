@@ -1,0 +1,43 @@
+.whatsapp-float {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-icon {
+  width: 50px;
+  height: 50px;
+}
+
+/* ✅ Responsive for tablets and small laptops */
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 80px;
+    right: 20px;
+  }
+
+  .whatsapp-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* ✅ Responsive for mobile devices */
+@media (max-width: 480px) {
+  .whatsapp-float {
+    bottom: 80px;
+    right: 25px;
+  }
+
+  .whatsapp-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import AboutBlock from '../components/AboutUs/AboutBlock';
-import clientImage from '../images/img1-4.png';
-import clientImage2 from '../images/img2-4.png';
-import clientImage3 from '../images/img3-1.png';
+import clientImage from '../images/smm-4.jpg';
+import clientImage2 from '../images/smm-2.jpg';
+import clientImage3 from '../images/smm-3.jpg';
 import Breadcrumb from '../components/Breadcrumb/Breadcrumb';
 import "./ServiceSeo.css"
 import CounterSection from '../components/Services/CounterSection/CounterSection';
@@ -58,9 +58,10 @@ const Smm = () => {
         image={clientImage3}
         reverse={false}
       />
+      <Blogsection/>
       <CounterSection/>
       <PricingSection/>
-      <Blogsection/>
+      
     </div>
   );
 };
